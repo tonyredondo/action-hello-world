@@ -8,7 +8,6 @@ namespace action_hello_world
         [Fact]
         public void Test1()
         {
-
         }
     }
 }
