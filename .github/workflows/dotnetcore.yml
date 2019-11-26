@@ -18,4 +18,4 @@ jobs:
     - name: Scope for dotnet
       uses: undefinedlabs/scope-for-dotnet-gh@master
       with:
-        apikey: 123
+        dsn: ${{ secrets.SCOPE_DSN }}
