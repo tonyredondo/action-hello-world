@@ -18,4 +18,5 @@ jobs:
     - name: Scope for .NET
       uses: undefinedlabs/scope-for-dotnet-gh@v1
       with:
+        command: dotnet test --debug
         dsn: ${{ secrets.SCOPE_DSN }}
