@@ -15,7 +15,7 @@ jobs:
         dotnet-version: 3.0.100
     - name: Build with dotnet
       run: dotnet build
-    - name: Scope for dotnet
+    - name: Scope for .NET
       uses: undefinedlabs/scope-for-dotnet-gh@v1
       with:
         dsn: ${{ secrets.SCOPE_DSN }}
