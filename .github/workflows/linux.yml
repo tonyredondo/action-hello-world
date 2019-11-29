@@ -16,6 +16,6 @@ jobs:
     - name: Build with dotnet
       run: dotnet build
     - name: Scope for .NET
-      uses: undefinedlabs/scope-for-dotnet-gh@v1
+      uses: undefinedlabs/scope-for-dotnet-action@v1
       with:
         dsn: ${{ secrets.SCOPE_DSN }}
